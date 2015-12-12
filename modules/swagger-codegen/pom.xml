@@ -271,6 +271,11 @@
             <version>${jmockit-version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>PowershellClientCodegen-swagger-codegen</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
     <repositories>
         <repository>
